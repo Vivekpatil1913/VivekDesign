@@ -1,75 +1,108 @@
 html body {
-	font-size: 14px;
-  font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+  font-size: 14px;
+  font: 400 14px/20px Roboto, Helvetica Neue, sans-serif;
   letter-spacing: normal;
-	color: #777777;
+  color: #777777;
 }
 
 /* Header Section Start */
 
 .topheader {
   color: #fff;
-
 }
-.regi_btn{
+.regi_btn {
   border: 2px solid #fff;
-    color: #fff!important;
-    padding: 9px 25px!important;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: 500!important;
-    line-height: 1.5!important;
-    text-align: center;
-    display: block;
-    font-size: 16px;
-}
-.regi_btn:hover{
-  border: 2px solid #fcbf02;
-  color: #fcbf02!important;
-}
-.li_color{
   color: #fff !important;
-  font-weight: 600!important;
-  font-size: 13px !important;
+  padding: 9px 25px !important;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500 !important;
+  line-height: 1.5 !important;
+  text-align: center;
+  display: block;
+  font-size: 16px;
 }
-ul li a:hover{
+.regi_btn:hover {
+  border: 2px solid #fcbf02;
   color: #fcbf02 !important;
 }
-.sub_name{
+.li_color {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+ul li a:hover {
+  color: #fcbf02 !important;
+}
+.sub_name {
   text-transform: capitalize;
 }
-.header_a_btn{
+.header_a_btn {
   background: transparent;
-    border: 0;
-    color: #fff;
-    text-decoration: none;
-    width: 43px;
-    height: 32px;
-    text-align: center;
-    border: 1px solid hsla(0,0%,100%,.5);
-    line-height: 22px;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 500;
+  border: 0;
+  color: #fff;
+  text-decoration: none;
+  width: 43px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid hsla(0, 0%, 100%, 0.5);
+  line-height: 22px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.header_a_btn:hover {
+  background: none;
+  border: 1px solid #fff;
+}
+
+/* vaccination stats start */
+
+.vaccination_stats {
+  background: #007c7c;
+  background: linear-gradient(120deg, #007c7c 50%, #04c4c4 0);
+  height: 4rem;
+}
+.vaccination_stats_btn {
+  background: #fcbf02;
+  border-radius: 25px;
+  padding: 0.55rem 2.55rem;
+  color: #4d3b03;
+  font-weight: 700;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid #fff;
+}
+.vaccination_stats_btn:hover {
+  background: #fcbf02;
+  border-radius: 25px;
+  padding: 0.55rem 2.55rem;
+  color: #4d3b03;
+  font-weight: 700;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 13px;
+  border: 2px solid #fff;
 }
 
 /* vaccinated card Section Start */
 
-.vaccinate_main{
+.vaccinate_main {
   padding: 45px;
-    background-color: #edffff;
+  background-color: #edffff;
 }
-.vaccin_title{
+.vaccin_title {
   font-weight: 700;
-    font-size: 32px;
-    color: #007c7c;
-    margin-bottom: 30px!important;
+  font-size: 32px;
+  color: #007c7c;
+  margin-bottom: 30px !important;
 }
-.vaccin_description_start{
+.vaccin_description_start {
   background-color: #007c7c;
 }
-.vaccin_description{
+.vaccin_description {
   padding: 30px 25px;
   font-size: 14px;
   line-height: 28px;
@@ -84,16 +117,16 @@ ul li a:hover{
   margin-left: 10px;
   margin-right: 10px;
 }
-.heder_btn{
+.heder_btn {
   text-align: right;
 }
 /* .vaccin_card_img{
   padding: 50px 35px 0;
 } */
-.vaccin_img_3{
+.vaccin_img_3 {
   height: 180px;
 }
-.vaccin_card{
+.vaccin_card {
   border: transparent;
   text-align: center;
   box-shadow: 0 10px 30px #b5d8e2;

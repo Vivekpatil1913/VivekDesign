@@ -1,14 +1,12 @@
-
-import './App.css'
-import MainIndex from './Components/MainIndex'
+import "./App.css";
+import MainIndex from "./Components/MainIndex";
 
 function App() {
-
   return (
     <>
-    <MainIndex/>
+      <MainIndex />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
