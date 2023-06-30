@@ -4,8 +4,19 @@ html body {
   letter-spacing: normal;
   color: #777777;
 }
+span{
+  font-size: 12px;
+}
 
 /* Header Section Start */
+
+.set_head_logo{
+  width: 20px;
+  margin-left: 20px;
+  float: left;
+  margin-top: 0px;
+  margin-right: 8px;
+}
 
 .topheader {
   color: #fff;
@@ -174,7 +185,7 @@ ul li a:hover {
 }
 .country {
   max-height: 490px;
-  max-width: 75%;
+  max-width: 100%;
   margin: 0 auto 0 20px;
 }
 .banner {

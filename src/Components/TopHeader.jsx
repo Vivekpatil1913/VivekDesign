@@ -7,10 +7,9 @@ const TopHeader = () => {
         <div className="row topheader" style={{ background: "#045d5d" }}>
           <div className="col-md-6">
             <div className="row">
-              <div className="col-md-1">
-                <img style={{ width: "80%" }} src={logo} alt="" />
-              </div>
-              <div className="col">
+              <div className="col-md-6 d-flex p-1">
+                <img src={logo} alt="logo" className="set_head_logo" />
+              
                 <span>
                   {" "}
                   Ministry of Health and <br /> <span> Family Welfare</span>

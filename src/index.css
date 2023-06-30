@@ -1,0 +1,13 @@
+@media only screen and (min-width: 320px) and (max-width: 370px){
+    .set_head_logo {
+        height: auto;
+        margin-left: 0;
+        margin-top: 4px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 920px){
+    .heder_btn{
+        display: none;
+    }
+}
