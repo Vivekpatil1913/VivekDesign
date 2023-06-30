@@ -1,0 +1,149 @@
+html body {
+	font-size: 14px;
+  font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+  letter-spacing: normal;
+	color: #777777;
+}
+
+/* Header Section Start */
+
+.topheader {
+  color: #fff;
+
+}
+.regi_btn{
+  border: 2px solid #fff;
+    color: #fff!important;
+    padding: 9px 25px!important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 500!important;
+    line-height: 1.5!important;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+}
+.regi_btn:hover{
+  border: 2px solid #fcbf02;
+  color: #fcbf02!important;
+}
+.li_color{
+  color: #fff !important;
+  font-weight: 600!important;
+  font-size: 13px !important;
+}
+ul li a:hover{
+  color: #fcbf02 !important;
+}
+.sub_name{
+  text-transform: capitalize;
+}
+.header_a_btn{
+  background: transparent;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    width: 43px;
+    height: 32px;
+    text-align: center;
+    border: 1px solid hsla(0,0%,100%,.5);
+    line-height: 22px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* vaccinated card Section Start */
+
+.vaccinate_main{
+  padding: 45px;
+    background-color: #edffff;
+}
+.vaccin_title{
+  font-weight: 700;
+    font-size: 32px;
+    color: #007c7c;
+    margin-bottom: 30px!important;
+}
+.vaccin_description_start{
+  background-color: #007c7c;
+}
+.vaccin_description{
+  padding: 30px 25px;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0;
+}
+.vaccinationSteps .icon-chevron-right {
+  color: #02aeae;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.heder_btn{
+  text-align: right;
+}
+/* .vaccin_card_img{
+  padding: 50px 35px 0;
+} */
+.vaccin_img_3{
+  height: 180px;
+}
+.vaccin_card{
+  border: transparent;
+  text-align: center;
+  box-shadow: 0 10px 30px #b5d8e2;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.counter {
+  border: 3px solid #fd5428;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  margin: 10px 0 40px;
+  padding: 12px 25px;
+  text-transform: uppercase;
+}
+.counter-h3 {
+  color: #fd5428;
+  margin: 0;
+  font-size: 38px;
+  font-weight: 700;
+}
+.content-5 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.primeMinister {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.heading-1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 53px;
+  color: #000;
+  font-family: Roboto Condensed, sans-serif !important;
+}
+.country {
+  max-height: 490px;
+  max-width: 75%;
+  margin: 0 auto 0 20px;
+}
+.banner {
+  background-image: url("./assets/banner.png");
+}
