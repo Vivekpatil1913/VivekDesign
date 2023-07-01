@@ -17,7 +17,7 @@ const Header = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
                             <li class="nav-item mx-3">
-                                <Link class="nav-link active li_color text-uppercase" aria-current="page" to="/abha">ABHA<span className='sub_name'>(Health ID)</span> </Link>
+                                <Link class="nav-link active li_color text-uppercase" aria-current="page" to="/">ABHA<span className='sub_name'>(Health ID)</span> </Link>
                             </li>
                             <li class="nav-item mx-3">
                                 <Link class="nav-link active li_color text-uppercase" aria-current="page" to="/"> Dashboard </Link>
