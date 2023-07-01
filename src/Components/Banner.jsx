@@ -8,11 +8,10 @@ const Banner = () => {
     <>
       <div className="banner">
         <Container>
-          <Row>
-            <Col md={7} className="mt-5">
+          <Row >
+            <Col md={7}>
               <h3 className="heading-1">
-                Historic & Unparalleled Achievement ! India’s Glorious Journey
-                of
+                Historic & Unparalleled Achievement ! India’s Glorious Journey of
               </h3>
               <div className="card counter my-4">
                 <h3 className="counter-h3">
@@ -26,7 +25,7 @@ const Banner = () => {
               </h5>
               <h6 className="primeMinister">- PM Narendra Modi</h6>
             </Col>
-            <Col md={5} className="text-center mt-5">
+            <Col md={5} className="text-center">
               <img className="country" src={country} alt="" />
             </Col>
           </Row>

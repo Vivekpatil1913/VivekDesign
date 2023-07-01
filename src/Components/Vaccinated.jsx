@@ -21,6 +21,7 @@ function Vaccinated() {
           </div>
         </div>
       </section>
+      
 
       <section className="vaccinate_main">
         <div className="container">
@@ -31,7 +32,8 @@ function Vaccinated() {
               </h1>
 
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-4 set_vaccine_card mb-2">
+                  <a target="_blank" href="https://prod-cdn.preprod.co-vin.in/assets/pdf/05092023-User-Guide-Citizen-Registration.pdf">
                   <div class="card vaccin_card" style={{ width: "18rem" }}>
                     <img
                       src={Step1}
@@ -50,8 +52,10 @@ function Vaccinated() {
                       </p>
                     </div>
                   </div>
+                  </a>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 set_vaccine_card mb-2">
+                  <a target="_blank" href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf">
                   <div class="card vaccin_card" style={{ width: "18rem" }}>
                     <img
                       src={Step2}
@@ -70,8 +74,10 @@ function Vaccinated() {
                       </p>
                     </div>
                   </div>
+                  </a>
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 set_vaccine_card mb-2">
+                  <a target="_blank" href="https://selfregistration.cowin.gov.in">
                   <div class="card vaccin_card" style={{ width: "18rem" }}>
                     <img
                       src={Step3}
@@ -90,6 +96,7 @@ function Vaccinated() {
                       </p>
                     </div>
                   </div>
+                  </a>
                 </div>
               </div>
             </div>

@@ -17,7 +17,7 @@ const TopHeader = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 heder_btn">
+          <div className="col-md-4 heder_btn">
             <button type="button" class="btn header_a_btn my-2">
               A+{" "}
             </button>
@@ -27,6 +27,9 @@ const TopHeader = () => {
             <button type="button" class="btn header_a_btn my-2">
               A-{" "}
             </button>
+          </div>
+          <div className="col-md-2">
+            
           </div>
         </div>
       </div>

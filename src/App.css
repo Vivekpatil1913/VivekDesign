@@ -4,13 +4,16 @@ html body {
   letter-spacing: normal;
   color: #777777;
 }
-span{
+span {
   font-size: 12px;
+}
+a {
+  text-decoration: none;
 }
 
 /* Header Section Start */
 
-.set_head_logo{
+.set_head_logo {
   width: 20px;
   margin-left: 20px;
   float: left;
@@ -145,6 +148,13 @@ ul li a:hover {
   border-radius: 10px;
 }
 
+.set_vaccine_card {
+  display: flex;
+  justify-content: center;
+}
+
+/*  */
+
 .counter {
   border: 3px solid #fd5428;
   border-radius: 8px;
@@ -186,8 +196,239 @@ ul li a:hover {
 .country {
   max-height: 490px;
   max-width: 100%;
-  margin: 0 auto 0 20px;
+  /* margin: 0 auto 0 20px; */
 }
 .banner {
   background-image: url("./assets/banner.png");
+}
+
+/* vaccin center start */
+
+.vaccin_center_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a5a75;
+  margin-bottom: 15px;
+  margin: 0 0 12px;
+}
+.vaccian_anchor {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #02aeae;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  font-weight: 700;
+  font-size: 22px;
+  color: #02aeae;
+  border-bottom: 1px solid #02aeae;
+  background-color: transparent;
+}
+.nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+  font-size: 22px;
+  font-weight: 700;
+  color: #7a7a7a;
+}
+.select_box {
+  border: 1px solid #bfbfbf;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.tab_content_set {
+  width: 77%;
+  margin: 0 auto;
+}
+.search_btn {
+  height: 45px !important;
+  padding: 8px 30px;
+  font-size: 18px;
+  text-transform: none !important;
+  border-radius: 50px !important;
+  margin-left: 15px;
+  font-weight: 400;
+  display: inline-block;
+  color: #fff !important;
+  border: 1px solid #007c7c !important;
+  background-color: #007c7c !important;
+}
+.tab_content_set_2 {
+  width: 48%;
+  margin: 0 auto;
+}
+.text_pin {
+  padding: 6px;
+  border-bottom: 1px solid #bfbfbf;
+  display: inline-block;
+  border-radius: 50px !important;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  padding: 8px 15px !important;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+/* Report start */
+.report_para {
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+  text-align: center;
+  text-align: justify;
+}
+.report_btn {
+  background: #007c7c;
+  border-radius: 25px;
+  padding: 0.75rem 2.95rem;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+}
+.report_btn:hover {
+  background: #007c7c;
+  border-radius: 25px;
+  padding: 0.75rem 2.95rem;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+}
+.report_img {
+  width: 85%;
+}
+
+/* pre covid */
+
+.heading_css {
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  line-height: 1.3;
+}
+
+.para_css {
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+  max-width: 70%;
+}
+
+.achore_css {
+  background: #007c7c;
+  border-radius: 25px;
+  padding: 0.75rem 2.95rem;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  /* width: -moz-fit-content; */
+  width: fit-content;
+  text-decoration: none;
+}
+
+.vaccine_css {
+  width: 75%;
+}
+
+.row_css {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.heading_child_css {
+  color: #007c7c;
+  font-weight: 700;
+  font-size: 31px;
+  letter-spacing: 0.1px;
+  line-height: 1.3;
+}
+
+.para_child_css {
+  list-style: none;
+  position: relative;
+  padding-left: 19px;
+}
+
+.ul_css {
+  padding-left: 5px;
+}
+
+.p_child_css {
+  font-size: 16px;
+  color: #0e1229;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+  letter-spacing: 0.5px;
+}
+
+.vaccine_css_img {
+  width: 100%;
+}
+
+.para_child_css .p_child_css:before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #27c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 6px;
+}
+
+/* Footer Code */
+
+.footerContainer {
+  background: #007c7c;
+  color: #fff;
+  position: relative;
+  padding: 0 30px;
+}
+.footer-heading-h4 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  color: #99d9d9;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+.footer-ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-ul li {
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.footer-ul li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer-heading-hr {
+  border: 3px solid #99d9d9;
+  width: 15%;
+}
+.footer-bottom{
+  background-color: #015158;
 }
